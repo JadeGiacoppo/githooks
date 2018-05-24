@@ -1,0 +1,6 @@
+#!/bin/sh
+# Runs the intellij code formatter before commits
+
+echo "Running pre-commit hook ......................"
+sh web/bin/webdev.sh format-branch
+echo "Auto-format done!"
